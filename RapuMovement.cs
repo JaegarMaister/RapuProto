@@ -4,7 +4,7 @@ using UnityEngine;
 
 [RequireComponent(typeof(Animator))]
 [RequireComponent(typeof(Rigidbody2D))]
-public class PlayerMovement : MonoBehaviour
+public class RapuMovement : MonoBehaviour
 {
     // Tarpeellisia animaation ja fysiikan toimimiselle
     private Rigidbody2D rb2d;
@@ -52,3 +52,4 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 }
+
